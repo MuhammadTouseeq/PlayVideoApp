@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#000000"
     android:weightSum="2"
     tools:context=".MainActivity">
 
@@ -13,7 +14,7 @@
         android:layout_height="0dp"
         android:padding="20dp"
         android:id="@+id/btnVideo1"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/btn1"
         android:layout_weight="1" />
 
     <ImageView
@@ -21,12 +22,14 @@
         android:layout_height="0dp"
         android:padding="20dp"
         android:id="@+id/btnVideo2"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/btn2"
         android:layout_weight="1" />
 
   <Button
       android:layout_width="match_parent"
       android:id="@+id/btnNext"
       android:text="Next"
+      android:textColor="#ffffff"
+      android:background="@color/colorPrimary"
       android:layout_height="wrap_content" />
 </LinearLayout>
